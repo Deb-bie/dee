@@ -1,0 +1,153 @@
+/*------head-----------*/
+.head {
+  background-color: #0f3460;
+  padding: 10px 0px;
+  color: #fff;
+}
+
+.headWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0px 50px;
+}
+
+.leftRow, .rightRow{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.leftRow .phone, .leftRow .mail{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.leftRow span{
+  margin-left: 10px;
+}
+
+.help, .en, .usd{
+  margin-right: 20px;
+}
+
+
+/*------head-----------*/
+
+
+
+/*------search-----------*/
+.search {
+  width: 100vw;
+  padding: 20px 0;
+  /* background-color: green; */
+}
+
+.search.active{
+  position: fixed;
+  width: 100%;
+  top: -14px;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  z-index: 11;
+  margin-bottom: 500px;
+}
+
+.searchContainer{
+  margin: 0px 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  width: auto;
+  height: auto;
+}
+
+.search-box{
+  display: flex;
+  width: 60vw;
+  height: auto;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.searchIcon{
+  width: 5%;
+  text-align: center;
+  font-size: 20px;
+  opacity: 0.5;
+  font-size: 17px;
+  color: yellow;
+}
+
+.search-box input{
+  width: 60vw;
+  padding: 10px;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  /* margin-left: 30px; */
+}
+
+::placeholder {
+  font-size: 15px;
+}
+
+.search-box span {
+  width: 20%;
+  /* width: auto; */
+  opacity: 0.5;
+  border-left: 2px solid rgba(0, 0, 0, 0.1);
+  padding-left: 10px;
+}
+
+.searchIcons{
+  display: flex;
+  justify-content: end;
+}
+
+.searchIcons .cart{
+  margin-left: 10px;
+  position: relative;
+}
+
+.searchIcons .cart span {
+  position: absolute;
+  top: -10px;
+  right: 0px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #e94560;
+  font-size: 12px;
+  color: #fff;
+}
+
+.menu, .close{
+  display: none;
+}
+
+
+
+
+
+
+
+
+/*------search-----------*/
+
+  
