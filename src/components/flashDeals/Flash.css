@@ -1,0 +1,129 @@
+.flash {
+  background: #f6f9fc;
+  padding: 50px 0;
+  width: 100%;
+}
+
+.flashContainer{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.flashHeading{
+  display: flex;
+}
+
+.flashHeading .bolt{
+  color: #e94560;
+  font-size: 35px;
+}
+
+.flashContainer .box{
+  padding: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  padding-right: 20px;
+  border: 1px solid rgba(0,0,0,0.08);
+  background-color: white;
+  box-shadow: rgb(3 43 115 / 10%) 0px 4px 16px;
+}
+
+.prev{
+  padding: 10px;
+  border-radius: 26px;
+  background-color: #0f3460;
+  color: #fff;
+  outline: none;
+  border: transparent;
+  position: absolute;
+  top: 198px;
+  height: 40;
+  z-index: 10;
+  left: -18px;
+}
+
+.next{
+  padding: 10px;
+  border-radius: 26px;
+  background-color: #0f3460;
+  color: #fff;
+  outline: none;
+  border: transparent;
+  position: absolute;
+  top: 198px;
+  right: -4px;
+  height: 40;
+  z-index: 10;
+}
+
+.product.mtop{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  height: 450px;
+  margin: 10px 0px;
+}
+
+.flashContainer .discount{
+  background-color: #e94560;
+  border-radius: 30px;
+  color: #fff;
+  padding: 5px 15px;
+}
+
+.flashContainer .img{
+  display: contents;
+}
+
+.flashContainer .box img{
+  width: auto;
+  height: auto;
+}
+
+.slick-slide div{
+  margin: 0 20px;
+}
+
+.slick-slider .slick-track, .slick-slider .slick-list {
+  transform: translate3d(0, 0, 0);
+  display: flex;
+  margin-left: -20px;
+}
+
+.flashProductDetails{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.flashProductRate{
+  color: goldenrod;
+}
+
+.flashPrice{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  color: #e94560;
+}
+
+.flashProductDetails button{
+  margin-top: 20px;
+  background-color: blue;
+  color: #fff;
+  outline: none;
+  border: transparent;
+  padding: 10px 30px;
+  border-radius: 10px;
+  align-content: center;
+  cursor: pointer;
+}
+
+  

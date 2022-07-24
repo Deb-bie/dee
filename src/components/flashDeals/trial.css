@@ -1,0 +1,64 @@
+.pList{
+    width: 100%;
+    /* max-width: 1024px; */
+    /* background-color: green; */
+    gap: 20px;
+}
+
+.pListItem{
+    /* flex: 1; */
+    padding: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    padding-right: 20px;
+    border: 1px solid rgba(0,0,0,0.08);
+    background-color: white;
+}
+
+.pListImg{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.pListTitles>h1{
+    font-size: 18px;
+}
+
+.pListTitles>h2{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* .slick-prev:before {
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: #4B0082;
+    border-radius: 40px;
+} */
+  
+.slick-next:before {
+    /* content: ">"; */
+    font-size: 30px;
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: #4B0082;
+    
+}
+
+/* .slick-slide {
+    margin-left:  15px;
+    margin-right:  15px;
+}
+
+.slick-list {
+    margin-left: -15px;
+    margin-right: -15px;
+    pointer-events: none;
+} */
+
+
