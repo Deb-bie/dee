@@ -1,0 +1,14 @@
+.announcement.background{
+    width: 100%;
+    background-color: #e0f3f2;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.announcement .container{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+}
