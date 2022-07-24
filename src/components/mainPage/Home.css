@@ -1,0 +1,118 @@
+.homeslider h1 {
+  font-size: 45px;
+  line-height: 55px;
+  margin: 50px 0 20px 0;
+}
+.homeslider p {
+  margin: 20px 0;
+}
+.homeSlider ul {
+  position: absolute;
+  bottom: 20px;
+}
+.homeSlider ul li {
+  border: 2px solid #b8b7b7;
+  border-radius: 50%;
+  padding: 10px;
+}
+.homeSlider ul li button {
+  background: transparent !important;
+  color: transparent !important;
+  width: 100px;
+}
+.homeSlider ul li button::before {
+  font-size: 15px !important;
+  color: #0f3460;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  margin: auto;
+}
+
+/* HOME */
+
+
+.home{
+  width: 100%;
+  display: flex;
+}
+
+.home.active{
+  margin-top: 100px;
+}
+
+.homeWrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.homeWrapper .category{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  box-shadow: rgb(3 43 115 / 10%) 0px 4px 16px;
+  /* background-color: #e0e2e233; */
+}
+
+.homeLeft{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.catImage{
+  width: 30px;
+  height: 30px;
+}
+
+.homeLeft span{
+  margin-left: 15px;
+}
+
+/* HOME SLIDER */
+
+.homeSlider{
+  width: 80%;
+  margin-left: 30px;
+}
+
+.homeSlider .container{
+  width: 100%;
+}
+
+.homeSlider .container .homeslider{
+  display: flex;
+  flex-direction: row;
+}
+
+.homeslider .left{
+  width: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.homeslider .right{
+  display: flex;
+  width: 50%;
+}
+
+.btn-primary{
+  margin-top: 50px;
+  width: auto;
+  height: auto;
+  padding: 10px 20px;
+  outline: none;
+  border: transparent;
+  background-color: #0f3460;
+  color: white;
+}
+
