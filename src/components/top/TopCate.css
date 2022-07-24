@@ -1,0 +1,100 @@
+.TopCate.background{
+  position: relative;
+  width: 100%;
+  background: #f6f9fc;
+  padding-bottom: 50px;
+}
+
+.TopCateContainer{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.TopCateHeading{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.TopCateHeadingLeft{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.borderall{
+  color: #e94560;
+  font-size: 30px;
+}
+
+.TopCateHeadingLeft h2{
+  margin-left: 20px;
+}
+
+.TopCateHeadingRight{
+  display: flex;
+  align-items: center;
+}
+
+.TopCateProduct{
+  /* width: 330px; */
+  width: 310px;
+  /* padding: 10px; */
+  cursor: pointer;
+  /* padding-right: 30px; */
+  border: 5px solid white;
+  background-color: white;
+  box-shadow: rgb(3 43 115 / 10%) 0px 4px 16px;
+}
+
+.TopCate img {
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.TopCate .nametop {
+  position: relative;
+  width: 100%;
+}
+
+.TopCate .nametop span {
+  background: #0f3460;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 50px;
+  margin: 5px;
+  position: absolute;
+  top: 10px;
+}
+
+.TopCate .nametop .tleft {
+  left: 0;
+}
+
+.TopCate .nametop .tright {
+  background-color: aliceblue;
+  color: black;
+  position: absolute;
+  right: 0;
+}
+
+.TopCateProduct .img{
+  margin: 0px;
+}
+
+.slick-slide div{
+  margin: 5px;
+}
+
+.slick-slider .slick-track, .slick-slider .slick-list {
+  transform: translate3d(0, 0, 0);
+  display: flex;
+  margin-left: -5px;
+}
+  
